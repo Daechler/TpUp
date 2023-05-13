@@ -1,0 +1,11 @@
+name: TpUp
+version: '${project.version}'
+main: net.daechler.tpup.TpUp
+api-version: 1.19
+authors: [Daechler]
+description: Teleport yourself high into the sky.
+commands:
+  tpup:
+    description: Teleport yourself high into the sky.
+    usage: /tpup
+    permission: tpup.use
